@@ -9,28 +9,8 @@
     <title>productInfo</title>
 </head>
 <body>
-    <header>
-        <span id="logo">
-            <div class="logoContainer">
-                <img src="img/altisport-logo.png" alt="" class="logoimg">
-            </div>
-            <p class="navButton">
-                Bicicletas
-            </p>
-            <p class="navButton">
-                Balones
-            </p>
-            <p class="navButton">
-                Ropa
-            </p>
-            <p class="navButton">
-                Zapatos
-            </p>
-            <p class="navButton">
-                <i class="fas fa-sign-in-alt fa-inverse"></i>
-            </p>
-    </header>
-    <img src="img/banner-altisport.jpg" id="banner">
+    <%- include("../partials/header.ejs") %>
+    <%- include("../partials/baner.ejs") %>
     <main>
         <section class="producto">
             <span class="miniaturas">
@@ -142,28 +122,6 @@
             </span>
         </section>
     </main>
-    <footer>
-        <span class="final">
-            <div>
-                <p>
-                    <a href="">¿Quienes somos?</a><br>
-                    <a href="">Ropa deportiva</a><br>
-                    <a href="">Bicicletas de montaña</a><br>
-                    <a href="">Balones deportivos</a><br>
-                </p>
-            </div>
-            <div>
-                <p>
-                    <a href="">Facebook</a><br>
-                    <a href="">Instagram</a><br>
-                    <a href="">Youtube</a><br>
-                    <a href="">Twitter</a>
-                </p>
-            </div>
-            <div class="logoContainer">
-                <img src="img/altisport-logo.png" alt="" class="logoimg">
-            </div>
-        </span>
-    </footer>
+    <%- include("../partials/footer.ejs") %>
 </body>
 </html>
