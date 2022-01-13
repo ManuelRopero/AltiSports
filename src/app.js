@@ -14,7 +14,7 @@ app.set("views", "./src/views");
 app.use(homeRouter);
 
 
-app.get('/registro', (req,res) => res.sendFile(path.resolve(path.resolve(__dirname,'./views/registro.html'))));
+
 
 //Servidor
 app.listen(process.env.PORT || 3000, () =>console.log("Servidor Corriendo en Puerto 3000"));

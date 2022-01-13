@@ -11,5 +11,8 @@ module.exports = {
     },
     registerUser: (req,res) => {
         res.render(("users/registro"));
+    },
+    create: (req,res)=>{
+        res.render(("products/createProduct"));
     }
 }
